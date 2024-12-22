@@ -16,8 +16,8 @@ const Modal: React.FC<ModalProps> = ({ modalOpen, setModalOpen ,children }) => {
       className={`modal ${modalOpen ? 'modal-open' : ''}`}
       open={modalOpen}
     >
-      <div className="modal-box">
-        <form method="dialog">
+      <div className="modal-box" >
+        <form method ="dialog"> 
           {/* Close button */}
           <button
             type="button"
